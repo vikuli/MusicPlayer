@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music player</title>
+    <link rel="icon" href="assets/svg/icon.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="container-bg">
+        <img src="assets/img/cover1.jpg" alt="background" class="bgimage" />
+      </div>
+      <div class="player-container">
+        <div class="player">
+          <div class="player-cover">
+            <img src="assets/img/cover1.jpg" alt="cover" class="cover" />
+          </div>
+          <div class="turntable">
+            <div class="singer">Our Last Night</div>
+            <div class="song">Skyfall (Adele cover)</div>
+            <audio src="assets/audio/song1.mp3" class="audio"></audio>
+            <div class="progress-bar-container">
+              <div class="progress-bar"></div>
+            </div>
+            <div class="timer">
+              <div class="current">0:00</div>
+              <div class="duration"></div>
+            </div>
+            <div class="player-button">
+              <div class="bw-container">
+                <img
+                  src="assets/svg/backward.png"
+                  alt="backward"
+                  class="backward bw-btn"
+                />
+              </div>
+              <div class="pl-container">
+                <img src="assets/svg/play.png" alt="play" class="play pl-btn" />
+              </div>
+              <div class="fw-container">
+                <img
+                  src="assets/svg/forward.png"
+                  alt="forward"
+                  class="forward fw-btn"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="github">
+        <a href="https://github.com/vikuli" class="github-link"
+          ><img
+            src="assets/svg/GitHub-Mark-Light-64px.png"
+            alt="github"
+            class="github-logo"
+        /></a>
+      </div>
+      <div class="year">2022</div>
+      <div class="rsschool">
+        <a href="https://rs.school/js-stage0/" class="rs-link"
+          ><img
+            src="https://rs.school/images/rs_school_js.svg"
+            alt="rsschool"
+            class="rsschool-logo"
+        /></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
